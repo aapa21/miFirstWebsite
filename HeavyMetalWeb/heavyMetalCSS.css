@@ -1,0 +1,105 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #364552;
+    color: white;
+    padding: 2rem 2rem;
+}
+
+body{
+    margin: 0;
+    background-color: #efefef; /*Este es un gris muy suave*/
+}
+
+#title{/*El asterisco # señala id*/
+    width: 600px;
+    margin: 0 auto;
+    color:antiquewhite; 
+}
+
+/*Modificando links*/
+a:visited{
+   color:blueviolet
+}
+
+a:hover{
+    color:maroon;
+}
+
+.recommend{ /*El punto. selecciona clases*/
+    color:rgb(90, 5, 5);
+}
+
+form.search{ /*Para señalar una clase es primero la etiqueta y despues el nombre de la clase*/
+    text-align: right;
+}
+
+.container{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.container2{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.container3{
+    text-align: center;
+}
+
+section article{
+    text-align: center;
+}
+
+.image{
+    width: 240px;
+    margin: 0 auto;
+}
+
+section article{
+    background-color:#efefef;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor:pointer;
+}
+
+section article img{
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section article p{
+    text-align: center;
+}
+
+section article img.hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0,3);
+}
+
+/*Modificando cada título*/
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+/*Centrando imagenes*/
+section article img{
+    text-align: center;
+    width: 200px;
+}
+
+p.ultimo{
+    text-align: left;
+}
+
+ul{
+    text-align: left;
+}

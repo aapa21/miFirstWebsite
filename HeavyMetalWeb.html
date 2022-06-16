@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Modifica el título de la pagina-->
+    <title>Heavy Metal Reviews</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="heavyMetalCSS.css">
+</head>
+<body><!--Aqui va toda la información-->
+    <header>
+    <h1 id="title">HEAVY METAL ALBUMS REVIEWS</h1>
+    </header>
+    <br>
+    <!--Vamos con formularios-->
+    <form class="search">
+        <label for="Album">Search album</label><!--Indica el nombre del campo-->
+        <input id="Album" name = "Album" placeholder="Heavy metal" /> <!--IMPORTANTE PONER ESTOS DATOS-->
+    </form>
+    
+    <section class="container3"><!--Separa por secciones los elementos de HTML-->
+    <h2 class="title2">
+        Hi there, do you like heavy metal music?
+    </h2>
+    <!--P indica parrafos-->
+    <p class="centerTextMetal">If you said YES, you know what is right <br> <!--Esto separa los espacios entre parrafos-->
+     But have you never listened heavy metal music?<br>
+     if you said NOT<br>
+     Then I will show you some songs</p>
+    </section>
+    <section class="image"><img class="centerImage" src="heavymetal.jpg" width="200"></section>
+    <hr>
+    <br>
+    <section class="container">
+        <h3>Heavy metal songs you should listen</h3>
+    </section>
+    <section class="container2">
+            <h4>Just enjoy!</h4>
+    <!--La etiqueta "a" sirve para referenciar vínculos-->
+    <section>
+    <article>
+    <p><a target = "_blank" href ="https://www.youtube.com/watch?v=8F4tT_JNl40">Death - crystal Mountain</a></p>
+    <!--Insertar imagenes-->
+    <section>
+    <img src="symbolic.webp" width="200"/> <!--width: para modificar el tamaño-->
+    <p><a target = "_blank" href = "https://www.youtube.com/watch?v=L397TWLwrUU">Judas Priest - Breaking the Law</a></p>
+    <p class="recommend">I highly recommend you</p>
+    <img src="judaspriest.webp" width="200"/>
+    <p><a target = "_blank" href = "https://www.youtube.com/watch?v=GQ5ejXzQu3Q">Sepultura - Beneath the Remains</a></p>
+    <img src="sepultura.jpg" width="200"/>
+    <p><a target = "_blank" href = "https://www.youtube.com/watch?v=ZPUZwriSX4M">Slipknot - Spit It Out</a></p>
+    <img src="slipknot.jpg" width="200"/>
+    <p><a target = "_blank" href = "https://www.youtube.com/watch?v=eeqGuaAl6Ic">Metallica - For Whom The Bell Tolls</a></p>
+    <img src="metallica.jpg" width="200"/>
+    </section>
+    </article>
+    </section>
+    <br>
+        </article>
+    </section>
+    <hr>
+    
+
+    <section>
+        <article>
+            <p class="ultimo">We´re going to show you more songs from heavy metal music<br>
+                Another songs you must listening<br>
+                <!--LISTAS-->
+                <ul>
+                    <!--ol : lista ordenada-->
+                    <!--ul : lista NO ordenada-->
+                    <li>Ozzy osbourne - Crazy Train</li>
+                    <li>Sepultura - Arise</li>
+                    <li>Kreator - Betrayer</li>
+                    <li>Exodus - Strike of the Beast</li>
+                    <li>Metallica - Master of Puppets</li>
+                </ul>
+            </p>
+        </article>
+    </section>
+
+    <!--Dejar comentarios-->
+    <form class="search2" action="/formulario" method="GET">
+    <label for="comments">Comments</label>
+    <br>
+     <!--Valores por defecto en comentarios-->
+    <textarea cols="50" rows="10" id="comments" placeholder="Enter a comment" name="comments"></textarea>
+    <br>
+    <!--Boton para enviar-->
+    <button type="reset">Submit</button>
+    </form>
+
+     <br>  
+     <br>
+     <!--Copyright-->
+    <footer>Copyright Abraham Ayil 2022</footer>
+
+</body>
+</html>
